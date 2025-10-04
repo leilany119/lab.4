@@ -10,7 +10,7 @@ int main (){
     bool sesion_iniciada = false;
 
  while (!sesion_iniciada) {
-        cout << "--- Inicio de Sesion ---" << endl;
+        cout << " Inicio de Sesion " << endl;
         cout << "Usuario: ";
         cin >> usuario_ingresado;
         cout << "Contrasena: ";
