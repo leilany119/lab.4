@@ -13,10 +13,19 @@ int main (){
   if (operador=='+') {
     resultado =num1,num2;
     cout<<"resultado:" <<num1<<"+" <<num2<<"="<<resultado<<endl;
-  }
- if (operador=='-') {
-    resultado =num1,num2;
-    cout<<"resultado:" <<num1<<"-" <<num2<<"="<<resultado<<endl;
+  } else if (operador=='*') {
+      resultado=num1-num2;
+      cout<<"resultado:" <<num1<<"-" <<num2<<"="<<resultado<<endl;
+  } 
+    else if (operador=='*') {
+        resultado=num1*num2;
+        cout<<resultado:"<<num1<<"/"<<num2<<"="<<resultado<<endl;
+            }
+     else {
+         cout<<"ERROR:NO SE PUEDE DIVIDIR ENTRE CERO."<<endl;
+     }
+}else{
+    cout<<
 
 
 
