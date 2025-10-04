@@ -13,13 +13,13 @@ int main (){
         cout << " Inicio de Sesion " << endl;
         cout << "Usuario: ";
         cin >> usuario_ingresado;
-        cout << "Contrasena: ";
+        cout << "Contraseña: ";
         cin >> contra_ingresada;
-    if (usuario_ingresado == usuario_correcta && contra_ingresada == contra_correcta) {
+    if (usuario_ingresado == usuario_correcto && contra_ingresada == contra_correcta) {
             sesion_iniciada = true;
-            cout << "\n¡Inicio de sesion exitoso!\n" << endl;
+            cout << "¡Inicio de sesion exitoso!" << endl;
         } else {
-            cout << "Usuario o contrasena incorrectos. Intentalo de nuevo.\n" << endl;
+            cout << "Usuario o contrasena incorrectos. Intentalo de nuevo." << endl;
         }
     }
         bool salir_calculadora = false;
